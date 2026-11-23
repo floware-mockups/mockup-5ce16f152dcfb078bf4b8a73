@@ -1,0 +1,558 @@
+{
+  "title": "Analisi dei consumi energetici residenziali",
+  "description": "Prototipo per organizzare dati, stime e ipotesi su consumi abitativi e abitazioni esenti IMU. I valori mostrati sono inventati a fini dimostrativi e non descrivono il Comune reale né costituiscono dati ufficiali.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "quadro-generale",
+      "title": "Quadro generale",
+      "description": "Dashboard di sintesi con indicatori e stato delle analisi. Dati dimostrativi da verificare su fonti istituzionali prima di ogni utilizzo.",
+      "metrics": [
+        {
+          "label": "Abitazioni nel campione",
+          "value": "1.240"
+        },
+        {
+          "label": "Gas medio annuo",
+          "value": "740 Smc"
+        },
+        {
+          "label": "Elettricità media annua",
+          "value": "2.180 kWh"
+        },
+        {
+          "label": "Record con fonte verificata",
+          "value": "68%"
+        },
+        {
+          "label": "Abitazioni principali simulate",
+          "value": "810"
+        },
+        {
+          "label": "Stime da rivedere",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Indicatore",
+        "Valore",
+        "Unità",
+        "Territorio",
+        "Anno",
+        "Tipo dato"
+      ],
+      "rows": [
+        [
+          "Gas medio abitazione",
+          "740",
+          "Smc/anno",
+          "Comune di Lumo",
+          "2023",
+          "Stima dimostrativa"
+        ],
+        [
+          "Elettricità media abitazione",
+          "2.180",
+          "kWh/anno",
+          "Comune di Lumo",
+          "2023",
+          "Stima dimostrativa"
+        ],
+        [
+          "Abitazioni principali esenti IMU",
+          "810",
+          "unità",
+          "Comune di Lumo",
+          "2023",
+          "Simulazione"
+        ],
+        [
+          "Famiglie residenti",
+          "2.460",
+          "unità",
+          "Comune di Lumo",
+          "2023",
+          "Dato dimostrativo"
+        ],
+        [
+          "Fonti istituzionali catalogate",
+          "14",
+          "fonti",
+          "Area di Vela",
+          "2024",
+          "Inventario dimostrativo"
+        ]
+      ],
+      "form": [
+        "Indicatore",
+        "Valore",
+        "Unità",
+        "Territorio",
+        "Anno",
+        "Tipo dato"
+      ]
+    },
+    {
+      "id": "consumi-abitativi",
+      "title": "Consumi per abitazione",
+      "description": "Consulta e filtra le stime annuali per composizione familiare, superficie e classe energetica. I record sono simulazioni, non statistiche ufficiali.",
+      "metrics": [
+        {
+          "label": "Categorie confrontabili",
+          "value": "15"
+        },
+        {
+          "label": "Media gas simulata",
+          "value": "740 Smc"
+        },
+        {
+          "label": "Media elettricità simulata",
+          "value": "2.180 kWh"
+        }
+      ],
+      "columns": [
+        "Categoria",
+        "Classe o fascia",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Per componente Smc/anno",
+        "Per componente kWh/anno",
+        "Tipo dato"
+      ],
+      "rows": [
+        [
+          "Componenti",
+          "1 componente",
+          "520",
+          "1.650",
+          "520",
+          "1.650",
+          "Simulazione"
+        ],
+        [
+          "Componenti",
+          "2 componenti",
+          "680",
+          "2.050",
+          "340",
+          "1.025",
+          "Simulazione"
+        ],
+        [
+          "Componenti",
+          "3 componenti",
+          "790",
+          "2.350",
+          "263",
+          "783",
+          "Simulazione"
+        ],
+        [
+          "Componenti",
+          "4 componenti",
+          "900",
+          "2.650",
+          "225",
+          "663",
+          "Simulazione"
+        ],
+        [
+          "Componenti",
+          "5 o più",
+          "1.040",
+          "2.950",
+          "208",
+          "590",
+          "Simulazione"
+        ],
+        [
+          "Superficie",
+          "Fino a 50 m2",
+          "430",
+          "1.650",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Superficie",
+          "51–75 m2",
+          "610",
+          "1.950",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Superficie",
+          "76–100 m2",
+          "780",
+          "2.300",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Superficie",
+          "101–150 m2",
+          "980",
+          "2.650",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Superficie",
+          "Oltre 150 m2",
+          "1.280",
+          "3.100",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "A4–A1",
+          "300",
+          "1.850",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "B",
+          "420",
+          "1.950",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "C",
+          "560",
+          "2.050",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "D",
+          "700",
+          "2.150",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "E",
+          "860",
+          "2.250",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "F",
+          "1.050",
+          "2.350",
+          "—",
+          "—",
+          "Simulazione"
+        ],
+        [
+          "Classe energetica",
+          "G",
+          "1.320",
+          "2.500",
+          "—",
+          "—",
+          "Simulazione"
+        ]
+      ],
+      "form": [
+        "Categoria",
+        "Classe o fascia",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Per componente Smc/anno",
+        "Per componente kWh/anno",
+        "Tipo dato"
+      ]
+    },
+    {
+      "id": "abitazioni-imu",
+      "title": "Abitazioni esenti IMU",
+      "description": "Registro dimostrativo per classificare le abitazioni principali esenti e documentare la disponibilità o assenza di dati. Le distribuzioni non rappresentano dati comunali reali.",
+      "metrics": [
+        {
+          "label": "Unità simulate",
+          "value": "810"
+        },
+        {
+          "label": "Categorie catastali considerate",
+          "value": "3"
+        },
+        {
+          "label": "Record con superficie",
+          "value": "72%"
+        }
+      ],
+      "columns": [
+        "Categoria catastale",
+        "Fascia superficie",
+        "Occupanti",
+        "Rendita catastale €",
+        "Classe energetica",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Tipo dato"
+      ],
+      "rows": [
+        [
+          "A/2",
+          "51–75 m2",
+          "1",
+          "420",
+          "Non disponibile",
+          "610",
+          "1.850",
+          "Simulazione"
+        ],
+        [
+          "A/2",
+          "76–100 m2",
+          "2",
+          "560",
+          "Non disponibile",
+          "720",
+          "2.100",
+          "Simulazione"
+        ],
+        [
+          "A/3",
+          "76–100 m2",
+          "3",
+          "390",
+          "Non disponibile",
+          "810",
+          "2.350",
+          "Simulazione"
+        ],
+        [
+          "A/3",
+          "101–150 m2",
+          "4",
+          "510",
+          "Non disponibile",
+          "950",
+          "2.700",
+          "Simulazione"
+        ],
+        [
+          "A/4",
+          "Fino a 50 m2",
+          "1",
+          "260",
+          "Non disponibile",
+          "480",
+          "1.700",
+          "Simulazione"
+        ],
+        [
+          "A/2",
+          "Oltre 150 m2",
+          "5 o più",
+          "780",
+          "Non disponibile",
+          "1.240",
+          "3.050",
+          "Simulazione"
+        ]
+      ],
+      "form": [
+        "Categoria catastale",
+        "Fascia superficie",
+        "Occupanti",
+        "Rendita catastale €",
+        "Classe energetica",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Tipo dato"
+      ]
+    },
+    {
+      "id": "confronto-scenari",
+      "title": "Confronto e scenari",
+      "description": "Confronta il patrimonio residenziale complessivo con uno scenario di abitazioni principali esenti IMU. Le differenze sono ipotesi da sottoporre a verifica, non risultati osservati.",
+      "metrics": [
+        {
+          "label": "Scenari registrati",
+          "value": "4"
+        },
+        {
+          "label": "Differenza gas simulata",
+          "value": "−6%"
+        },
+        {
+          "label": "Differenza elettricità simulata",
+          "value": "−2%"
+        }
+      ],
+      "columns": [
+        "Scenario",
+        "Gruppo abitazioni",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Superficie prevalente",
+        "Occupanti prevalenti",
+        "Classe energetica",
+        "Tipo dato"
+      ],
+      "rows": [
+        [
+          "Base",
+          "Patrimonio residenziale",
+          "740",
+          "2.180",
+          "76–100 m2",
+          "2",
+          "Non disponibile",
+          "Stima dimostrativa"
+        ],
+        [
+          "Principale esente",
+          "Abitazioni principali",
+          "696",
+          "2.136",
+          "76–100 m2",
+          "2",
+          "Non disponibile",
+          "Simulazione"
+        ],
+        [
+          "Nuclei piccoli",
+          "Una persona",
+          "520",
+          "1.650",
+          "Fino a 75 m2",
+          "1",
+          "Non disponibile",
+          "Simulazione"
+        ],
+        [
+          "Nuclei numerosi",
+          "4 o più persone",
+          "970",
+          "2.800",
+          "101–150 m2",
+          "4 o più",
+          "Non disponibile",
+          "Simulazione"
+        ]
+      ],
+      "form": [
+        "Scenario",
+        "Gruppo abitazioni",
+        "Gas Smc/anno",
+        "Elettricità kWh/anno",
+        "Superficie prevalente",
+        "Occupanti prevalenti",
+        "Classe energetica",
+        "Tipo dato"
+      ]
+    },
+    {
+      "id": "fonti-metodo",
+      "title": "Fonti e metodo",
+      "description": "Catalogo per registrare fonti istituzionali, territorio coperto, anno e metodo. La verifica delle fonti e dei dati deve precedere la produzione di risultati attendibili.",
+      "metrics": [
+        {
+          "label": "Fonti catalogate",
+          "value": "14"
+        },
+        {
+          "label": "Fonti da verificare",
+          "value": "5"
+        },
+        {
+          "label": "Livelli territoriali",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Ente o archivio",
+        "Documento o dataset",
+        "Anno riferimento",
+        "Territorio",
+        "Variabile",
+        "Metodo o limite",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Istituto di Nubi",
+          "Quadro famiglie e abitazioni",
+          "2023",
+          "Comune simulato",
+          "Famiglie e abitazioni",
+          "Aggregazione territoriale dimostrativa",
+          "Da verificare"
+        ],
+        [
+          "Agenzia di Vela",
+          "Archivio statistiche immobiliari",
+          "2023",
+          "Area simulata",
+          "Categorie catastali e rendite",
+          "Dati aggregati; non identifica i consumi",
+          "Da verificare"
+        ],
+        [
+          "Ente di Lumo",
+          "Prospetto tributi immobiliari",
+          "2023",
+          "Comune simulato",
+          "Esenzioni IMU",
+          "Simulazione; verificare definizioni e copertura",
+          "Da verificare"
+        ],
+        [
+          "Consorzio di Brina",
+          "Rapporto consumi residenziali",
+          "2022",
+          "Area simulata",
+          "Gas ed elettricità",
+          "Stime per gruppi; non disaggregate localmente",
+          "Da verificare"
+        ],
+        [
+          "Osservatorio di Riva",
+          "Inventario prestazioni edilizie",
+          "2022",
+          "Regione simulata",
+          "Classi energetiche",
+          "Copertura parziale; possibili dati mancanti",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Ente o archivio",
+        "Documento o dataset",
+        "Anno riferimento",
+        "Territorio",
+        "Variabile",
+        "Metodo o limite",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "verde-oliva",
+    "fonts": "moderno"
+  }
+}
