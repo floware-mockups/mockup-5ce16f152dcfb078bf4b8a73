@@ -549,10 +549,108 @@
         "Metodo o limite",
         "Stato"
       ]
+    },
+    {
+      "id": "storico-imu",
+      "title": "Storico IMU dimostrativo",
+      "description": "Valori interamente inventati per il confronto 2021–2023. Collegamento dimostrativo per fascia e occupanti, valido solo per combinazioni univoche. Il valore annuale del registro principale è assunto come 2023.",
+      "metrics": [],
+      "columns": [
+        "Fascia superficie",
+        "Occupanti",
+        "Gas 2021 Smc",
+        "Gas 2022 Smc",
+        "Elettricità 2021 kWh",
+        "Elettricità 2022 kWh",
+        "Periodo",
+        "Tipo dato"
+      ],
+      "rows": [
+        [
+          "51–75 m2",
+          "1",
+          "650",
+          "570",
+          "1900",
+          "1800",
+          "2021–2023",
+          "Simulazione"
+        ],
+        [
+          "76–100 m2",
+          "2",
+          "780",
+          "670",
+          "2160",
+          "2040",
+          "2021–2023",
+          "Simulazione"
+        ],
+        [
+          "76–100 m2",
+          "3",
+          "870",
+          "750",
+          "2420",
+          "2280",
+          "2021–2023",
+          "Simulazione"
+        ],
+        [
+          "101–150 m2",
+          "4",
+          "1030",
+          "880",
+          "2780",
+          "2620",
+          "2021–2023",
+          "Simulazione"
+        ],
+        [
+          "Fino a 50 m2",
+          "1",
+          "520",
+          "440",
+          "1750",
+          "1650",
+          "2021–2023",
+          "Simulazione"
+        ],
+        [
+          "Oltre 150 m2",
+          "5 o più",
+          "1340",
+          "1150",
+          "3140",
+          "2960",
+          "2021–2023",
+          "Simulazione"
+        ]
+      ],
+      "form": [
+        "Fascia superficie",
+        "Occupanti",
+        "Gas 2021 Smc",
+        "Gas 2022 Smc",
+        "Elettricità 2021 kWh",
+        "Elettricità 2022 kWh",
+        "Periodo",
+        "Tipo dato"
+      ]
     }
   ],
   "theme": {
     "palette": "verde-oliva",
     "fonts": "moderno"
-  }
+  },
+  "custom": [
+    {
+      "name": "AnalisiTriennaleImu",
+      "title": "Analisi triennale dei consumi",
+      "description": "Filtri, statistiche descrittive e indicatori esplorativi su dati simulati.",
+      "role": "section",
+      "pageId": "abitazioni-imu",
+      "position": "top"
+    }
+  ]
 }
